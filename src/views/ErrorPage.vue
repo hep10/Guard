@@ -29,7 +29,7 @@
 
               <div class="_div_line" />
               <div class="_see_doctor">
-                参见开发文档：<a :href="doc" target="_blank">docs.authing.cn</a>
+                如果您需要帮助，请联系客服邮箱：qr@hep.com.cn
               </div>
             </div>
             <div
@@ -51,7 +51,7 @@ export default {
   data() {
     return {
       errorMessage: ["抱歉, 似乎出错了"],
-      doc: "https://docs.authing.cn"
+      doc: "https://docs.authing.cn",
     };
   },
 
@@ -71,8 +71,8 @@ export default {
 
     returnBack() {
       // $route.back(-1);
-    }
-  }
+    },
+  },
 };
 </script>
 
